@@ -30,6 +30,11 @@ public class Lister {
             tail=null;
             return knude;
         }
+        knude = tail;
+        tail = tail.previous;
+        tail.next.previous = null;
+        tail.next = null;
+        return knude;
 
 
     }
