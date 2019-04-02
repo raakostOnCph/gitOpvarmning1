@@ -13,4 +13,9 @@ public class Lister {
     }
 
 
+public  boolean OnlyOne() {
+
+        return tail== head;
+}
+
 }
