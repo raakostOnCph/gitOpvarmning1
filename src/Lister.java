@@ -6,4 +6,11 @@ public class Lister {
 
 
 
+    public boolean Empty() {
+
+        return (head == null && tail == null);
+
+    }
+
+
 }
