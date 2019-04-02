@@ -4,8 +4,6 @@ public class Lister {
     Knude tail;
 
 
-
-
     public boolean Empty() {
 
         return (head == null && tail == null);
@@ -13,9 +11,26 @@ public class Lister {
     }
 
 
-public  boolean OnlyOne() {
+    public boolean OnlyOne() {
 
-        return tail== head;
-}
+        return tail == head;
+    }
 
+
+    public Knude removeFromTail() {
+
+        Knude knude = null;
+
+        if (Empty()) {
+            return knude;
+        }
+        if (OnlyOne()) {
+            knude = head;
+            head= null;
+            tail=null;
+            return knude;
+        }
+
+
+    }
 }
