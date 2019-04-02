@@ -66,6 +66,11 @@ public class Lister {
             return knude;
         }
 
+        knude = head;
+        head = head.next;
+        head.previous.next = null;
+        head.previous = null;
+        return head;
 
     }
 
