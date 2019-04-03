@@ -68,15 +68,12 @@ public  boolean OnlyOne() {
             return knude;
         }
 
-        knude = head;
-        head = head.next;
-        head.previous.next = null;
-        head.previous = null;
+
         return head;
 
     }
 
-}
+
 
     public Knude removeFromTail() {
 
