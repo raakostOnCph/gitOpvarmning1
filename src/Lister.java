@@ -55,19 +55,6 @@ public  boolean OnlyOne() {
     }
 
 
-    public Knude removeFromhead() {
-
-        Knude knude = null;
-        if (Empty()) {
-            return knude;
-        }
-
-
-
-
-        return head;
-
-    }
 
 
 
