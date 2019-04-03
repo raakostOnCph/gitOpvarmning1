@@ -61,12 +61,8 @@ public  boolean OnlyOne() {
         if (Empty()) {
             return knude;
         }
-        if (OnlyOne()) {
-            knude = head;
-            head = null;
-            tail = null;
-            return knude;
-        }
+
+
 
 
         return head;
