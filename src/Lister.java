@@ -48,9 +48,7 @@ public  boolean OnlyOne() {
 
         }
 
-        tail.next = knude;
-        knude.previous = tail;
-        tail = knude;
+
         return knude;
     }
 
