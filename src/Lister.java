@@ -76,7 +76,7 @@ public  boolean OnlyOne() {
 
     }
 
-}
+
 
     public Knude removeFromTail() {
 
@@ -91,11 +91,7 @@ public  boolean OnlyOne() {
             tail=null;
             return knude;
         }
-        knude = tail;
-        tail = tail.previous;
-        tail.next.previous = null;
-        tail.next = null;
-        return knude;
+
 
 
     }
