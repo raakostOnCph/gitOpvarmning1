@@ -36,20 +36,7 @@ public  boolean OnlyOne() {
 
     }
 
-    public Knude insertTail(String s) {
 
-        Knude knude = new Knude(s);
-
-        if(Empty()) {
-
-
-            return knude;
-
-        }
-
-
-        return knude;
-    }
 
 
     public Knude removeFromhead() {
