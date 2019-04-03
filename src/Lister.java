@@ -78,16 +78,4 @@ public  boolean OnlyOne() {
 
 
 
-    public Knude removeFromTail() {
-
-        Knude knude = null;
-
-        if (Empty()) {
-            return knude;
-        }
-
-
-
-
-    }
 }
